@@ -1,0 +1,12 @@
+type UserRegister {
+    id: ID!
+    firstName: String
+    lastName: String
+    email: String
+    password: String
+    contactNo: String
+}
+
+type Query {
+    getAllRegisterUserDetails: [UserRegister]
+}
